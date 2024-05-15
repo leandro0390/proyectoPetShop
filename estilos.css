@@ -1,0 +1,331 @@
+/*ESTILO Y POSICION DEL NAV*/
+
+nav {
+    background-color: #dde9e9;
+    color: #000000;
+    padding: 10px 80px 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    flex: 2;
+    font-size: 1.5em;
+}
+
+/*Opciones*/
+nav ul {
+    flex: 8;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* carrito */
+.cart {
+    flex: 1/4;
+    text-align: right;
+}
+
+
+.cart i {
+    color: #050505;
+    font-size: 1.5em;
+
+}
+
+/*Busqueda*/
+.material-symbols-outlined {
+    flex: 2;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+/*ESTILO Y POSICIONAMIENTO SECTION*/
+
+.main-section {
+    background-color: #a3e4f8bd;
+    padding: 1px 3em 1px 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+}
+
+/*PRIMER RECUADRO*/
+
+.container1 {
+    flex: 50em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+/*TEXTO*/
+
+.acceso {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 25em;
+    height: 20em;
+    justify-content: center;
+}
+
+
+
+.acceso h2 {
+    font-size: 2em;
+}
+
+
+.subtitulo {
+    font-size: 1.2em;
+}
+
+.boton {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4e4e4e;
+    color: #c1e7ec;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/*IMAGEN*/
+.perro1 {
+    width: 30em;
+    height: 25em;
+    border-radius: 15px;
+}
+
+/*SEGUNDO RECUADRO*/
+/*primera fila*/
+.container2 {
+    background-color: rgb(6, 119, 172);
+    display: flex;
+    border-top-left-radius: 100px ;
+    border-top-right-radius: 100px ;
+    justify-content: space-between;
+    padding: 1em 10em 1em 10em;
+}
+
+.imgcont2-1 {
+    flex: 1;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 50px;
+}
+
+.imgcont2-2 {
+    flex: 1;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.imgcont2-3 {
+    flex: 1;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+/*segunda fila*/
+.container3 {
+    background-color: rgb(6, 119, 172);
+    display: flex;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    padding: 1em 10em 1em 10em;
+}
+
+.imgcont3-1 {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.imgcont3-2 {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+/*imagenes*/
+.animales {
+    width: 25em;
+    height: 20em;
+    object-fit: fill;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+/*TERCER RECUADRO*/
+/*Mismo estilo y elementos que primer recuadro. Solo modifica texto*/
+
+.acceso p{
+    text-align:left;
+    padding: 0;
+    margin: 0;
+
+}
+
+/*CUARTO RECUADRO*/
+
+
+.container4{
+position:relative;
+width: 112em;
+height: 50em;
+}
+
+.container4-1{
+    position: relative;
+    left: 100px;
+    top: 0px;
+    width: 100em;
+    height: 35em;
+    max-width:auto;
+    max-height: 35em;
+    border-color: black;
+    border-width: thin;
+    border: 5px;
+    background-color: blue;
+    border-style: solid;
+    z-index:10;
+}
+
+.container4-2{
+position: absolute;
+z-index: 11;
+width: 250px;
+height: 400px;
+top:50%;
+left:83%;
+}
+
+.tituloContainer4{
+    position:relative;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+}
+
+.container4-1-1{
+    display: flex;
+}
+
+
+.container4-1-1-1{
+    position: relative;
+    flex:1;
+    height: 25em;
+    padding: 2em;
+    max-width:max-content;
+    overflow: auto;
+}
+
+.container4-1-1-1 img{
+z-index: 1;
+position: absolute;
+top: 4%;
+left: 7%;
+width: 110px;
+height: 80px;
+border-radius: 80px;
+}
+
+.container4-1-1-1-1{
+    border-color: black;
+    border-width: thin;
+    border: 1px;
+    background-color: rgb(245, 245, 245);
+    border-style: solid;
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    border-radius: 40px;
+    z-index: 0;
+}
+
+h5{
+text-align: end;
+}
+
+/*
+
+.TextoContainer4{}
+
+*/
+
+/*QUINTO RECUADRO*/
+
+
+
+.preFooter{
+    background-color: #dadada;
+    margin: 0px;
+    align-content: center;
+}
+
+
+.preFooter h3{
+
+    text-align: center;
+}
+
+.preFooter p{
+
+    text-align: center;
+}
+
+.linea{
+    display: flex;
+    
+    
+    }
+
+.preFooter1{
+    flex: 1;
+}
+
+.preFooter2{
+    flex: 1;
+    padding: 1em;
+    border: 3px;
+    margin-right: 10em;
+    margin-left: 11em;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #d8faff;
+}
+
+.preFooter2 p{
+    text-align: start;
+
+}
+
+/*footer*/
+
+footer{
+    background-color: #000000;
+    height: 3em;
+    text-align: center;
+}
