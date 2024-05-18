@@ -12,54 +12,76 @@ body {
 }
 
 nav {
-    background-color: #dde9e9;
-    color: #000000;
-    padding: 10px 80px 10px 80px;
+    z-index: 15;
+    width: 100%;
+    position: fixed;
+    background-color: #fbfcfc;
+    height: 70px;
+    border: .1px solid black;
+    color: #000000; 
+    padding: 10px 80px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .logo {
-    flex: 2;
+    flex: 1;
     font-size: 1.5em;
 }
 
-/*Opciones*/
+.logo > span {
+    font-weight: bold;
+}
+
+/* Opciones */
 nav ul {
-    flex: 8;
+    flex: 4;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-ul li {
-    margin-right: 20px;
-    cursor: pointer;
+nav ul li {
+    margin: 0 10px;
 }
 
-/* carrito */
+nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Carrito */
 .cart {
-    flex: 1/4;
     text-align: right;
 }
-
 
 .cart i {
     color: #050505;
     font-size: 1.5em;
-
 }
 
-/*Busqueda*/
-.material-symbols-outlined {
-    flex: 2;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
+/* Busqueda */
+.search-container {
+    flex: 1.5;
+    display: flex;
+    align-items: center;
 }
+
+.search-container .material-symbols-outlined {
+
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    margin-left: 10px; /* Añade espacio entre el input y el icono */
+}
+
+.search-container > input {
+    width: 240px;
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid #ccc; /* Añadir borde para que sea visible */
+}
+
 
 /*ESTILO Y POSICIONAMIENTO SECTION*/
 
