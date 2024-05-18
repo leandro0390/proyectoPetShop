@@ -1,11 +1,15 @@
-/*NORMALIZE*/
+/*ESTILO Y POSICION DEL NAV*/
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-/*ESTILO Y POSICION DEL NAV*/
+
+body {
+    background: linear-gradient(#DEFBFF, #f6feff);
+}
 
 nav {
     background-color: #dde9e9;
@@ -60,7 +64,6 @@ ul li {
 /*ESTILO Y POSICIONAMIENTO SECTION*/
 
 .main-section {
-    background-color: #a3e4f8bd;
     padding: 1px 3em 1px 3em;
     display: flex;
     flex-flow: column nowrap;
@@ -129,59 +132,121 @@ ul li {
 /*SEGUNDO RECUADRO*/
 /*primera fila*/
 .container2 {
-    background-color: rgb(6, 119, 172);
+    min-width: 70%;
+    min-height: 700px;
+    border-radius: 30px;
+    background-color: #CDEFEF; 
+    margin: 0 auto;   
     display: flex;
-    border-top-left-radius: 100px ;
-    border-top-right-radius: 100px ;
-    justify-content: space-between;
-    padding: 1em 10em 1em 10em;
+    justify-items: center;
+    align-items: center;
+    
 }
 
-.imgcont2-1 {
-    flex: 1;
-    max-width: fit-content;
-    max-height: fit-content;
-    border-radius: 50px;
+.container2-figure {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    border-radius: 30px;
+    gap: 30px;
+
+    
 }
 
-.imgcont2-2 {
-    flex: 1;
-    max-width: fit-content;
-    max-height: fit-content;
+
+/*imagen de collar, ocupando la columna 3/4*/
+ .imgcont2-4 {
+    width: 100%;
+    grid-column: 1 / 3; /* Extenderse a 3 columnas empezando desde la columna 1 */
+
+ }
+
+
+
+/*imagen de 2 cachorros, ocupando la columna 3/4*/
+.imgcont2-5 {
+    grid-column: 3/4;
+
 }
 
-.imgcont2-3 {
-    flex: 1;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-/*segunda fila*/
-.container3 {
-    background-color: rgb(6, 119, 172);
-    display: flex;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    justify-content: space-between;
-    padding: 1em 10em 1em 10em;
+/*color solido de fondo de las imagenes*/
+.bg-images {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 2px 10px gray; 
 }
 
-.imgcont3-1 {
-    max-width: fit-content;
-    max-height: fit-content;
+/*cambiamos el ancho para que abarque todo el espacio disponible*/
+.bg-image2-4 {
+    width: 100%;
 }
 
-.imgcont3-2 {
-    max-width: fit-content;
-    max-height: fit-content;
-}
 
 /*imagenes*/
 .animales {
-    width: 25em;
-    height: 20em;
-    object-fit: fill;
+    object-fit: cover; 
+    bottom: 0;
+    position: absolute;
+    width: 90%; 
+    height: 20em; 
     border-radius: 50px;
-    margin: 10px;
+}
+
+
+/*configuramos la posicion del michi hacia el centro*/
+.bg-image2-2 > .animales {
+    right: 10px;
+}
+
+/*Ahrandamos la imagen del collar*/
+.bg-image2-4 > .animales {
+    width: 700px;
+    height: 25em;
+}
+
+/*Le damos color un fondo gradient a cada uno de los fondos de las imagenes*/
+.bg-image2-1 {
+    background: radial-gradient(#d5e1ff, #7d96d5);
+
+}
+.bg-image2-2 {
+    background: radial-gradient(#fff6fe, #C57DCA);
+}
+
+.bg-image2-3 {
+    background: radial-gradient(#ffffff, #c0bebe);
+}
+
+.bg-image2-4 {
+    background: linear-gradient(#EBC9B4, #ffe7d8);
+}
+
+.bg-image2-5 {
+  background: linear-gradient(to right ,#F4C9C9, rgb(255, 240, 240));    
+}
+
+/*contenedor de los parrafos representativo de las imagenes de los animales*/
+.bg-images > .container-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Ajustamos los parrafos representativos de las imagenes de los animales*/
+.container-letter > p { 
+    margin-top: 180px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration-color: red;
+    font-size: 60px;
+    opacity: .9;
 }
 
 /*TERCER RECUADRO*/
