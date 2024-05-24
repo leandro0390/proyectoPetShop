@@ -18,9 +18,16 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 - CSS3
 - JavaScript
 
-## Instalación
+## Link de acceso
 
-1. Clona este repositorio en tu máquina local:
+https://puppyfriends.netlify.app/
 
-```bash
-git clone https://github.com/leandro0390/proyectoPetShop.git
+Capturas de Pantalla
+
+Licencia
+Este proyecto está bajo del grupo 3 de Codo a Codo 4.0
+
+Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de mi correo electrónico tu_email@example.com o mediante mi perfil de GitHub.
+
+¡Gracias por visitar nuestra tienda online de accesorios y alimentos para mascotas!
