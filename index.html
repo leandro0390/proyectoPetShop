@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Veterinaria</title>
-    <link rel="stylesheet" href="./estilos.css">
+    <title>Puppy Friends</title>
+    <link rel="stylesheet" href="./css/estilos.css">
     <script src="https://kit.fontawesome.com/4994da4282.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
-
 <body>
     <nav>
-        <div class="logo">PUPPY <span>FRIENDS</span></div>
+        <a href="index.html" class="logo">PUPPY <span>FRIENDS</span></a>
+        <button class="hamburger-menu" hidden>
+            <i class="fa-solid fa-bars"></i>
+        </button>
         <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="/index.html">Inicio</a></li>
             <li><a href="#">Tienda</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Opiniones</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+            <li><a href="#opinion">Opiniones</a></li>
         </ul>
         <div class="search-container">
             <input type="text" placeholder="Buscar...">
@@ -28,9 +28,9 @@
             <i class="fas fa-shopping-cart"></i>
         </div>
     </nav>
-    <section class="main-section">
-        <div class="container1">
-            <div class="acceso">
+    <main class="main-section">
+        <div class="main-content-section">
+            <div class="main-content">
                 <h2>Encuentra todo lo que necesitas</h2>
                 <p class="subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos illum quidem
                     repellat amet unde facilis, delectus numquam voluptate sapiente illo perspiciatis possimus iure
@@ -40,12 +40,11 @@
                     <a href="#" class="btn">Iniciar sesión</a>
                 </div>
             </div>
-            <img class="perro1" src="./imagenes/imagen_perro.jpeg" alt="Imagen de un perro">
+            <img class="perro1" src="./img/imagen_perro.jpeg" alt="Imagen de un perro">
         </div>
 
-        <div class="container2">
+        <div class="category-section">
             <figure class="container2-figure">
-
                 <a href="#" class="imgcont2-1">
                     <article class="bg-image2-1 bg-images">
                         <div class="container-letter">
@@ -87,18 +86,16 @@
                     </article>
                 </a>
             </figure>
-
         </div>
 
-
-        <div class="container1">
-            <div class="acceso">
+        <div class="main-content-section">
+            <div class="main-content">
                 <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
                 <p>Lorem ipsum dolor sit amet cons</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
                 <p>Lorem ipsum dolor sit amet cons</p>
-                </br>
-                </br>
+                <br>
+                <br>
                 <p class="subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos illum quidem
                     repellat amet unde facilis, delectus numquam voluptate sapiente illo perspiciatis possimus iure
                     voluptates est repellendus deserunt veritatis esse quisquam.</p>
@@ -106,10 +103,10 @@
                     <a href="#" class="btn">Leer más</a>
                 </div>
             </div>
-            <img class="perro1" src="./imagenes/alimentoPerros.png" alt="Alimento Perro">
+            <img class="perro1" src="./img/alimentoPerros.png" alt="Alimento Perro">
         </div>
-
-
+        
+        <div id="opinion"> <br> <br> <br></div>
         <div class="opinion-container">
             <div class="opinion-section">
                 <h4 class="opinion-title">Voces de clientes, felices y satisfechos</h4>
@@ -172,13 +169,10 @@
                     </div>
 
                 </div>
-
             </div>
-
-        <img class="opinion-image" src="./img/Michi3.png" alt="Gato">
-
-
+            <img class="opinion-image" src="./img/Michi3.png" alt="Gato">
         </div>
+<<<<<<< HEAD
 
 
     </section>
@@ -217,6 +211,10 @@
             </div>
         </div>
     </section>
+=======
+    </main>
+
+>>>>>>> update/page-and-new-page-contact
     <footer>
         <br>
         <i class="fa-brands fa-instagram fa-2xl" style="color: #f9f8fc;"></i>
@@ -227,5 +225,4 @@
         <div>@ Derechos reservados por PuppyFriends</div>
     </footer>
 </body>
-
 </html>

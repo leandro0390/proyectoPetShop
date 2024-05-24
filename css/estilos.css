@@ -1,11 +1,10 @@
-/*ESTILO Y POSICION DEL NAV*/
+/* Estilos y posición del nav */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
 
 body {
     background: linear-gradient(#d7faff, #e3f8fc);
@@ -17,7 +16,7 @@ nav {
     position: fixed;
     background-color: #fbfcfc;
     border: .1px solid black;
-    color: #000000; 
+    color: #000000;
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -31,6 +30,7 @@ nav {
 
 .logo > span {
     font-weight: bold;
+    color: #55198A;
 }
 
 /* Opciones */
@@ -50,6 +50,14 @@ nav ul li a {
     text-decoration: none;
     color: inherit;
     padding: 15px;
+<<<<<<< HEAD:estilos.css
+=======
+}
+
+nav ul li a:hover {
+    background-color: #d7faff;
+    border-radius: 30px;
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 nav ul li a:hover {
@@ -70,7 +78,7 @@ nav ul li a:hover {
     margin: 0 25px;
 }
 
-/* Busqueda */
+/* Búsqueda */
 .search-container {
     flex: 1.5;
     display: flex;
@@ -79,7 +87,11 @@ nav ul li a:hover {
 
 .search-container .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+<<<<<<< HEAD:estilos.css
     margin-left: 10px; 
+=======
+    margin-left: 10px;
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .search-container > input {
@@ -90,9 +102,7 @@ nav ul li a:hover {
     margin-right: 15px;
 }
 
-
-/*ESTILO Y POSICIONAMIENTO SECTION*/
-
+/* Estilo y posicionamiento de la sección principal */
 .main-section {
     padding: 1px 3em;
     display: flex;
@@ -100,37 +110,38 @@ nav ul li a:hover {
     gap: 2em;
     max-width: 95%;
 }
+<<<<<<< HEAD:estilos.css
 /*PRIMER RECUADRO*/
 
 .container1 {
+=======
+
+.main-content-section {
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
     flex: 50em;
     display: flex;
-    flex-direction: row;
+    gap: 5%;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
 
-/*TEXTO*/
-
-.acceso {
+.main-content {
     background-color: #fff;
     padding: 40px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     width: 25em;
+<<<<<<< HEAD:estilos.css
     
+=======
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
-
-
-.acceso h2 {
+.main-content h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
-
 
 .subtitulo {
     font-size: 1.2em;
@@ -152,28 +163,35 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-/*IMAGEN*/
 .perro1 {
     width: 30em;
     height: 25em;
     border-radius: 15px;
 }
 
+<<<<<<< HEAD:estilos.css
 /*SEGUNDO RECUADRO*/
 /*primera fila*/
 /*SEGUNDO RECUADRO*/
 /*primera fila*/
 .container2 {
+=======
+/* Segunda sección */
+.category-section {
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
     padding: 0 30px;
     min-width: 70%;
     min-height: 600px;
     border-radius: 30px;
-    background-color: #CDEFEF; 
-    margin: 0 auto;   
+    background-color: #CDEFEF;
+    margin: 0 auto;
     display: flex;
     justify-items: center;
     align-items: center;
+<<<<<<< HEAD:estilos.css
  
+=======
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .container2-figure {
@@ -184,6 +202,7 @@ nav ul li a:hover {
     max-width: 100%;
 }
 
+<<<<<<< HEAD:estilos.css
 
 /*imagen de collar, ocupando la columna 3/4*/
  .imgcont2-4 {
@@ -192,6 +211,12 @@ nav ul li a:hover {
 
 
 /*color solido de fondo de las imagenes*/
+=======
+.imgcont2-4 {
+    grid-column: span 2;
+}
+
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 .bg-images {
     background-color: white;
     border-radius: 20px;
@@ -201,13 +226,10 @@ nav ul li a:hover {
     width: 100%;
 }
 
-/*cambiamos el ancho para que abarque todo el espacio disponible*/
 .bg-image2-4 {
     width: 100%;
 }
 
-
-/*imagenes*/
 .animales {
     object-fit: cover;
     position: absolute;
@@ -217,10 +239,13 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
+<<<<<<< HEAD:estilos.css
 
 
 
 /*Le damos color un fondo gradient a cada uno de los fondos de las imagenes*/
+=======
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 .bg-image2-1 {
     background: radial-gradient(#d5e1ff, #7d96d5);
 }
@@ -241,8 +266,7 @@ nav ul li a:hover {
     background: linear-gradient(to right, #F4C9C9, rgb(255, 240, 240));
 }
 
-/*contenedor de los parrafos representativo de las imagenes de los animales*/
-.bg-images > .container-letter {
+.container-letter {
     width: 100%;
     height: 100%;
     display: flex;
@@ -250,8 +274,7 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-/*Ajustamos los parrafos representativos de las imagenes de los animales*/
-.container-letter > p { 
+.container-letter > p {
     margin-top: 180px;
     z-index: 1;
     color: rgb(255, 255, 255);
@@ -260,6 +283,7 @@ nav ul li a:hover {
     opacity: .9;
 }
 
+<<<<<<< HEAD:estilos.css
 
 
 /*TERCER RECUADRO*/
@@ -271,6 +295,9 @@ nav ul li a:hover {
 }
 
 /* Contenedor de Opiniones de Clientes */
+=======
+/* Tercera sección */
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 .opinion-container {
     position: relative;
     width: 70%;
@@ -287,6 +314,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD:estilos.css
 }
 
 /* Imagen Decorativa del Gato */
@@ -297,6 +325,8 @@ nav ul li a:hover {
     top: 25%;
     left: 73%;
     max-width: 100%;
+=======
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .opinion-title {
@@ -363,6 +393,7 @@ nav ul li a:hover {
 }
 
 
+<<<<<<< HEAD:estilos.css
 
 /*QUINTO RECUADRO*/
 .preFooter {
@@ -460,6 +491,18 @@ nav ul li a:hover {
 
 /*footer*/
 
+=======
+.opinion-image {
+    position: absolute;
+    z-index: 1;
+    height: 700px;
+    top: 25%;
+    left: 73%;
+    max-width: 60%;
+}
+
+/* Footer */
+>>>>>>> update/page-and-new-page-contact:css/estilos.css
 footer {
     background-color: #000000;
     height: 3em;
