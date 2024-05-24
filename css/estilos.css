@@ -1,31 +1,23 @@
-/*ESTILO Y POSICION DEL NAV*/
+/* Estilos y posición del nav */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
 
 body {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
     background: linear-gradient(#d7faff, #e3f8fc);
 }
 
-.header {
-    z-index: 5;
+nav {
+    z-index: 15;
     width: 100%;
     position: fixed;
     background-color: #fbfcfc;
     border: .1px solid black;
-    color: #000000; 
+    color: #000000;
     padding: 10px 80px;
-}
-
-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +30,7 @@ nav {
 
 .logo > span {
     font-weight: bold;
+    color: #55198A;
 }
 
 /* Opciones */
@@ -62,9 +55,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #d7faff;
     border-radius: 30px;
-    
 }
-
 
 /* Carrito */
 .cart {
@@ -77,7 +68,7 @@ nav ul li a:hover {
     margin: 0 25px;
 }
 
-/* Busqueda */
+/* Búsqueda */
 .search-container {
     flex: 1.5;
     display: flex;
@@ -86,7 +77,7 @@ nav ul li a:hover {
 
 .search-container .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .search-container > input {
@@ -97,45 +88,33 @@ nav ul li a:hover {
     margin-right: 15px;
 }
 
-/*ESTILO Y POSICIONAMIENTO MAIN*/
+/* Estilo y posicionamiento de la sección principal */
 .main-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 1px 3em;
     display: flex;
     flex-direction: column;
     gap: 2em;
-    max-width: 80%;
+    max-width: 95%;
 }
 
-/*PRIMER RECUADRO*/
-.container1 {
+.main-content-section {
+    flex: 50em;
     display: flex;
-    gap: 20px;
-    height: 400px;
-    justify-content: center;
+    gap: 5%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-/*TEXTO*/
-.container1-acceso {
-    display: flex;
-    flex-direction: column;
+.main-content {
     background-color: #fff;
     padding: 40px;
+    border-radius: 15px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 40%;
-    border-radius: 15px; 
-    gap: 15px;
-    justify-content: center;
+    width: 25em;
 }
 
-/*IMAGEN*/
-.container1-perro1 {
-    min-width: 50%;
-    border-radius: 15px;
-}
-
-.container1-acceso h2 {
+.main-content h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -160,90 +139,59 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-/*SEGUNDO RECUADRO*/
-/*primera fila*/
-/*SEGUNDO RECUADRO*/
-/*primera fila*/
-.container2 {
-    padding: 10px 15px;
+.perro1 {
+    width: 30em;
+    height: 25em;
+    border-radius: 15px;
+}
+
+/* Segunda sección */
+.category-section {
+    padding: 0 30px;
+    min-width: 70%;
+    min-height: 600px;
     border-radius: 30px;
     background-color: #CDEFEF;
-    padding: 20px;
     margin: 0 auto;
-    height: 420px;
-    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .container2-figure {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 30px;
+    width: 100%;
+    max-width: 100%;
 }
 
-.container3 {
-    display: flex;
-    gap: 20px;
-    height: 400px;
-    justify-content: center;
-}
-
-/*IMAGEN*/
-.container3-alimento {
-    min-width: 50%;
-    width: 200px;
-    border-radius: 15px;
-}
-
-.container3-acceso {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 40px;
-    text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 40%;
-    border-radius: 15px; 
-    gap: 15px;
-    justify-content: center;
-}
-
-/*imagen de collar, ocupando la columna 3/4*/
- .imgcont2-4 {
+.imgcont2-4 {
     grid-column: span 2;
- }
+}
 
-
-/*color solido de fondo de las imagenes*/
 .bg-images {
-    display: flex;
-    padding: 10px;
-    gap: 5px;
-    flex-direction: column;
+    background-color: white;
     border-radius: 20px;
+    position: relative;
     overflow: hidden;
     box-shadow: 3px 2px 10px gray;
-    height: 180px;
+    width: 100%;
 }
 
-.bg-images-4 {
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 3px 2px 10px gray;
-    height: 180px;
+.bg-image2-4 {
+    width: 100%;
 }
 
-/*imagenes*/
 .animales {
     object-fit: cover;
+    position: absolute;
+    bottom: 0;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
-
-/*Le damos color un fondo gradient a cada uno de los fondos de las imagenes*/
 .bg-image2-1 {
     background: radial-gradient(#d5e1ff, #7d96d5);
 }
@@ -264,25 +212,29 @@ nav ul li a:hover {
     background: linear-gradient(to right, #F4C9C9, rgb(255, 240, 240));
 }
 
-/*Ajustamos los parrafos representativos de las imagenes de los animales*/
-.container2-letter {
+.container-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-letter > p {
+    margin-top: 180px;
+    z-index: 1;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 60px;
     opacity: .9;
 }
 
-/*TERCER RECUADRO*/
-.acceso p{
-    text-align:left;
-    padding: 0;
-    margin: 0;
-}
-
-/* Contenedor de Opiniones de Clientes */
+/* Tercera sección */
 .opinion-container {
+    position: relative;
     width: 70%;
     margin: 0 auto;
+    height: 1000px;
 }
 
 .opinion-section {
@@ -292,10 +244,9 @@ nav ul li a:hover {
     box-shadow: 1px 1px 6px gray;
     padding: 2em;
     display: flex;
-
+    flex-direction: column;
     align-items: center;
 }
-
 
 .opinion-title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -327,6 +278,9 @@ nav ul li a:hover {
     border: 1px solid black;
     object-fit: cover;
     z-index: 1;
+    position: absolute;
+    top: -40px;
+    left: 50%;
     transform: translateX(-50%);
     width: 100px;
     height: 95px;
@@ -357,17 +311,23 @@ nav ul li a:hover {
     color: #87A8AF;
 }
 
-/*footer*/
-.footer {
+
+.opinion-image {
     position: absolute;
-    bottom: 0;
+    z-index: 1;
+    height: 700px;
+    top: 25%;
+    left: 73%;
+    max-width: 60%;
+}
+
+/* Footer */
+footer {
     background-color: #000000;
     height: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #f9f8fc;
-    width: 100%;
     text-align: center;
 }
-

@@ -204,11 +204,7 @@ nav ul li a:hover {
 
 /*QUINTO RECUADRO*/
 .preFooter {
-    margin-top: 280px;
-    height: 900px;
-    border: 2px solid black;
     font-family: Montserrat, Helvetica, sans-serif;
-    background-color: #F6FEFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +245,10 @@ nav ul li a:hover {
 .preFooter1 > form {
     width: 70%; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    
+    
+    
 }
 
 .preFooter1 > form > label {
@@ -273,6 +272,27 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
+
+
+.info-contact {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #DCDCDC;
+    width: 60%;
+    border-radius: 80px;
+    padding: 2em;
+    justify-content: center;
+    
+}
+
+.info-contact > p {
+    font-size: 25px;
+}
+
+
+
 
 /*footer*/
 .footer {
