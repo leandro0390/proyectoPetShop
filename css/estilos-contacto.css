@@ -152,7 +152,7 @@ nav ul li a:hover {
  
 }
 
-.container2-figure {
+.category-figure {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
