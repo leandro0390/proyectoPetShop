@@ -50,22 +50,12 @@ nav ul li a {
     text-decoration: none;
     color: inherit;
     padding: 15px;
-<<<<<<< HEAD:estilos.css
-=======
 }
 
 nav ul li a:hover {
     background-color: #d7faff;
     border-radius: 30px;
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
-
-nav ul li a:hover {
-    background-color: #d7faff;
-    border-radius: 30px;
-    
-}
-
 
 /* Carrito */
 .cart {
@@ -87,11 +77,7 @@ nav ul li a:hover {
 
 .search-container .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-<<<<<<< HEAD:estilos.css
-    margin-left: 10px; 
-=======
     margin-left: 10px;
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .search-container > input {
@@ -110,14 +96,8 @@ nav ul li a:hover {
     gap: 2em;
     max-width: 95%;
 }
-<<<<<<< HEAD:estilos.css
-/*PRIMER RECUADRO*/
-
-.container1 {
-=======
 
 .main-content-section {
->>>>>>> update/page-and-new-page-contact:css/estilos.css
     flex: 50em;
     display: flex;
     gap: 5%;
@@ -132,10 +112,6 @@ nav ul li a:hover {
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     width: 25em;
-<<<<<<< HEAD:estilos.css
-    
-=======
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .main-content h2 {
@@ -169,16 +145,8 @@ nav ul li a:hover {
     border-radius: 15px;
 }
 
-<<<<<<< HEAD:estilos.css
-/*SEGUNDO RECUADRO*/
-/*primera fila*/
-/*SEGUNDO RECUADRO*/
-/*primera fila*/
-.container2 {
-=======
 /* Segunda sección */
 .category-section {
->>>>>>> update/page-and-new-page-contact:css/estilos.css
     padding: 0 30px;
     min-width: 70%;
     min-height: 600px;
@@ -188,10 +156,6 @@ nav ul li a:hover {
     display: flex;
     justify-items: center;
     align-items: center;
-<<<<<<< HEAD:estilos.css
- 
-=======
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .container2-figure {
@@ -202,21 +166,10 @@ nav ul li a:hover {
     max-width: 100%;
 }
 
-<<<<<<< HEAD:estilos.css
-
-/*imagen de collar, ocupando la columna 3/4*/
- .imgcont2-4 {
-    grid-column: span 2;
- }
-
-
-/*color solido de fondo de las imagenes*/
-=======
 .imgcont2-4 {
     grid-column: span 2;
 }
 
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 .bg-images {
     background-color: white;
     border-radius: 20px;
@@ -239,13 +192,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-<<<<<<< HEAD:estilos.css
-
-
-
-/*Le damos color un fondo gradient a cada uno de los fondos de las imagenes*/
-=======
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 .bg-image2-1 {
     background: radial-gradient(#d5e1ff, #7d96d5);
 }
@@ -283,21 +229,7 @@ nav ul li a:hover {
     opacity: .9;
 }
 
-<<<<<<< HEAD:estilos.css
-
-
-/*TERCER RECUADRO*/
-.acceso p{
-    text-align:left;
-    padding: 0;
-    margin: 0;
-
-}
-
-/* Contenedor de Opiniones de Clientes */
-=======
 /* Tercera sección */
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 .opinion-container {
     position: relative;
     width: 70%;
@@ -314,19 +246,6 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD:estilos.css
-}
-
-/* Imagen Decorativa del Gato */
-.opinion-image {
-    position: absolute;
-    z-index: 1;
-    height: 700px;
-    top: 25%;
-    left: 73%;
-    max-width: 100%;
-=======
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 }
 
 .opinion-title {
@@ -393,105 +312,6 @@ nav ul li a:hover {
 }
 
 
-<<<<<<< HEAD:estilos.css
-
-/*QUINTO RECUADRO*/
-.preFooter {
-    margin-top: 280px;
-    height: 900px;
-    border: 2px solid black;
-    font-family: Montserrat, Helvetica, sans-serif;
-    background-color: #F6FEFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em;
-}
-
-.preFooter h3 {
-    font-family: Montserrat, Helvetica, sans-serif;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 2.5em;
-    color: #47AAC3;
-    margin-bottom: 20px;
-}
-
-.preFooter h3 > span {
-    font-weight: bold;
-}
-
-.preFooter > p {
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 70px;
-}
-
-.linea {
-    width: 100%;
-    display: flex;
-}
-
-.preFooter1 {
-    width: 50%;
-    display: flex;
-    justify-content: end;
-}
-
-.preFooter1 > form {
-    width: 70%; 
-    display: flex;
-    flex-direction: column;
-    
-    
-    
-}
-
-.preFooter1 > form > label {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.preFooter1 > form > input {
-    width: 100%; 
-    height: 50px;
-    border-radius: 90px;
-    display: flex;
-    border: 1px solid #ccc; 
-    
-}
-
-.preFooter2 {
-    width: 50%;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.info-contact {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #DCDCDC;
-    width: 60%;
-    border-radius: 80px;
-    padding: 2em;
-    justify-content: center;
-    
-}
-
-.info-contact > p {
-    font-size: 25px;
-}
-
-
-
-/*footer*/
-
-=======
 .opinion-image {
     position: absolute;
     z-index: 1;
@@ -502,7 +322,6 @@ nav ul li a:hover {
 }
 
 /* Footer */
->>>>>>> update/page-and-new-page-contact:css/estilos.css
 footer {
     background-color: #000000;
     height: 3em;
