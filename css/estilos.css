@@ -729,7 +729,9 @@ footer {
   .search-container {
     display: none;
   }
-
+  .hamburger-menu {
+  display: none
+  }
   .search-container .material-symbols-outlined {
     display: none;
   }
@@ -740,7 +742,7 @@ footer {
 
   .hamburger-menu {
     display: flex;
-    width: 100%;
+
     background: none;
     border: none;
     cursor: pointer;
@@ -909,150 +911,7 @@ footer {
   .opinion-image {
     top: 45%;
     left: 86%;
-    max-width: 35%;
+    max-width: 32%;
     max-height: 350px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1164px) {
-  /* NAV */
-
-  .cart i {
-    display: none;
-  }
-
-  nav {
-    padding: 10px 40px;
-  }
-
-  nav ul {
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 1em;
-  }
-
-  nav ul li {
-    margin: 0 6px;
-  }
-
-  nav ul li a {
-    font-size: 17px;
-  }
-
-  .search-container {
-    display: flex;
-  }
-
-  .search-container input {
-    width: 160px;
-  }
-
-  .search-container .material-symbols-outlined {
-    display: none;
-  }
-
-  .cart i {
-    font-size: 1.2em;
-    margin: 0 15px;
-  }
-
-  /* Sección principal */
-  .main-section {
-    max-width: 90%;
-  }
-
-  .main-content-section {
-    flex-direction: column;
-    gap: 3%;
-    margin: 80px 0;
-  }
-
-  .main-content {
-    width: 80%;
-    height: 40%;
-  }
-
-  .perro1 {
-    width: 70%;
-    height: auto;
-  }
-
-  /* Segunda sección */
-  .category-section {
-    padding: 0 20px;
-    min-height: 500px;
-  }
-
-  .category-figure {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .imgcont2-3,
-  .imgcont2-4,
-  .imgcont2-5 {
-    grid-column: span 2;
-  }
-
-  .bg-images {
-    height: 250px;
-  }
-
-  .container-letter > p {
-    margin-top: 140px;
-    font-size: 40px;
-  }
-
-  /* Tercera sección */
-  .opinion-container {
-    width: 80%;
-    height: 1000px;
-  }
-
-  .opinion-section {
-    padding: 1.5em;
-  }
-
-  .opinion-title {
-    font-size: 20px;
-    margin-bottom: 2.5em;
-  }
-
-  .opinion-item {
-    width: 38%;
-    margin-bottom: 20px;
-  }
-
-  .opinion-item img {
-    width: 80px;
-    height: 80px;
-    top: -30px;
-  }
-
-  .opinion-details {
-    padding: 0.8em;
-    margin-top: 50px;
-  }
-
-  .opinion-details h5 {
-    font-size: 14px;
-    margin-bottom: 0.8em;
-  }
-
-  .opinion-text {
-    font-size: 14px;
-  }
-
-  .opinion-image {
-    top: 50%;
-    left: 80%;
-    max-width: 54%;
-    max-height: 400px;
-  }
-
-  /* Footer */
-  footer {
-    padding: 10px;
-    height: auto;
   }
 }
