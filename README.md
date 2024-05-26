@@ -1,7 +1,7 @@
 # proyectoPetShop 
 ## grupo 3
 
-# Tienda Online de Accesorios y Alimentos para Mascotas
+= Tienda Online de Accesorios y Alimentos para Mascotas
 
 Este proyecto es una tienda online de accesorios y alimentos para mascotas, desarrollada utilizando HTML, CSS y JavaScript. La tienda ofrece una variedad de productos para perros, gatos y otros animales domésticos.
 
@@ -18,9 +18,11 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 - CSS3
 - JavaScript
 
-##Aplicamos validaciones con Javascript
+## Aplicamos validaciones con Javascript
 -campo Nombre
 -campo Email
+
+image::validaciones.jpg[]
 
 ## Link de acceso
 
