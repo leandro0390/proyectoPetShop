@@ -1,0 +1,102 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main {
+    position: relative;
+    top: 100px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*QUINTO RECUADRO*/
+.preFooter {
+    font-family: Montserrat, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.preFooter h3 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.5em;
+    color: #47AAC3;
+    margin-bottom: 20px;
+}
+
+.preFooter h3 > span {
+    font-weight: bold;
+}
+
+.preFooter > p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+.linea {
+    width: 100%;
+    display: flex;
+}
+
+.preFooter1 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.preFooter1 > form {
+    width: 70%; 
+    display: flex;
+    flex-direction: column;  
+}
+
+.preFooter1 > form > label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.preFooter1 > form > input {
+    width: 100%; 
+    height: 50px;
+    border-radius: 90px;
+    display: flex;
+    border: 1px solid #ccc;   
+}
+
+.preFooter2 {
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-contact {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #DCDCDC;
+    width: 60%;
+    border-radius: 80px;
+    padding: 2em;
+    justify-content: center;
+    
+}
+
+.info-contact > p {
+    font-size: 25px;
+}
