@@ -22,7 +22,7 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 -campo Nombre
 -campo Email
 
-image::validaciones.jpg[]
+image::img/validaciones.png
 
 ## Link de acceso
 
