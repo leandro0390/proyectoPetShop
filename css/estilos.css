@@ -1,0 +1,918 @@
+/* Estilos y posición del nav */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(#d7faff, #e3f8fc);
+}
+
+nav {
+  z-index: 15;
+  width: 100%;
+  position: fixed;
+  background-color: #fbfcfc;
+  border: 0.1px solid black;
+  color: #000000;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 1;
+  font-size: 1.5em;
+}
+
+.logo > span {
+  font-weight: bold;
+  color: #55198a;
+}
+
+/* Opciones */
+nav ul {
+  flex: 4;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: inherit;
+  padding: 15px;
+}
+
+nav ul li a:hover {
+  background-color: #d7faff;
+  border-radius: 30px;
+}
+
+/* Carrito */
+.cart {
+  text-align: right;
+}
+
+.cart i {
+  color: #050505;
+  font-size: 1.5em;
+  margin: 0 25px;
+}
+
+/* Búsqueda */
+.search-container {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.search-container .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  margin-left: 10px;
+}
+
+.search-container > input {
+  width: 240px;
+  padding: 10px;
+  border-radius: 60px;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+}
+
+/* Estilo y posicionamiento de la sección principal */
+.main-section {
+  padding: 1px 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 95%;
+}
+
+
+.main-content-section {
+  flex: 50em;
+  display: flex;
+  gap: 5%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 40em;
+}
+
+.main-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  font-size: 1.2em;
+}
+
+.boton {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4e4e4e;
+  color: #c1e7ec;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.perro1 {
+  width: 30em;
+  height: 25em;
+  border-radius: 15px;
+}
+
+/* Segunda sección */
+.category-section {
+  padding: 0 30px;
+  min-width: 70%;
+  min-height: 600px;
+  border-radius: 30px;
+  background-color: #cdefef;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.category-figure {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.imgcont2-3 {
+  grid-row: 1/2;
+  grid-column: 3 / span 1;
+}
+
+.imgcont2-4 {
+  grid-column: span 2;
+}
+
+.bg-images {
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 3px 2px 10px gray;
+  width: 100%;
+}
+
+.bg-image2-4 {
+  width: 100%;
+}
+
+.animales {
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.bg-image2-1 {
+  background: radial-gradient(#d5e1ff, #7d96d5);
+}
+
+.bg-image2-2 {
+  background: radial-gradient(#fff6fe, #c57dca);
+}
+
+.bg-image2-3 {
+  background: radial-gradient(#ffffff, #c0bebe);
+}
+
+.bg-image2-4 {
+  background: linear-gradient(#ebc9b4, #ffe7d8);
+}
+
+.bg-image2-5 {
+  background: linear-gradient(to right, #f4c9c9, rgb(255, 240, 240));
+}
+
+.container-letter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-letter > p {
+  margin-top: 180px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 60px;
+  opacity: 0.9;
+}
+
+/* Tercera sección */
+.opinion-container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.opinion-section {
+  width: 100%;
+  border-radius: 30px;
+  background: linear-gradient(#e3f5f8, #c3e6e3, #c1e4e1);
+  box-shadow: 1px 1px 6px gray;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opinion-title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: #a9dad7;
+  font-size: 30px;
+  margin-bottom: 2em;
+}
+
+.opinion-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.opinion-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.opinion-item img {
+  border: 1px solid black;
+  object-fit: cover;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 95px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.opinion-details {
+  background-color: #e3f8fc;
+  width: 100%;
+  padding: 1em;
+  border-radius: 40px;
+  box-shadow: 1px 2px 2px gray;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.opinion-details h5 {
+  font-size: 12px;
+  color: #87a8af;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.opinion-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #87a8af;
+}
+
+.opinion-image {
+  position: absolute;
+  z-index: 1;
+  height: 700px;
+  top: 25%;
+  left: 73%;
+  max-width: 60%;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9f8fc;
+  text-align: center;
+}
+
+/*Responsive*/
+
+/*Dipositivo: Celular 360px hasta 480px*/
+@media (min-width: 360px) and (max-width: 480px) {
+  /*NAV*/
+  .search-container {
+    display: none;
+  }
+
+  .search-container .material-symbols-outlined {
+    display: none;
+  }
+
+  .cart i {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 10px;
+    justify-content: end;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fbfcfc;
+    padding: 0;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    color: #000;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .cart {
+    position: relative;
+  }
+
+  .hamburger-menu {
+    order: 2;
+  }
+
+  /* Estilos específicos para la sección de categorías en dispositivos móviles */
+  .category-section {
+    min-width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .category-figure {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    border-radius: 20px;
+    gap: 20px;
+  }
+
+  .imgcont2-3 {
+    grid-row: auto;
+    grid-column: span 1;
+  }
+
+  .imgcont2-4 {
+    width: 100%;
+    grid-column: span 1;
+  }
+
+  .imgcont2-5 {
+    grid-column: span 1;
+  }
+
+  .bg-images {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 1px 8px gray;
+  }
+
+  .bg-image2-3 {
+    width: 100%;
+  }
+
+  .bg-image2-4 {
+    width: 100%;
+  }
+
+  .animales {
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .container-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-letter > p {
+    margin-top: 150px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration-color: red;
+    font-size: 1.5em;
+    opacity: 0.9;
+  }
+
+  /*main-content-section*/
+
+  .main-content-section {
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-content,
+  .perro1 {
+    width: 100%;
+  }
+
+  .main-content {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .perro1 {
+    height: auto;
+  }
+
+  /*Seccion de opiniones*/
+  .opinion-container {
+    height: 500px;
+    width: 90%;
+    margin-bottom: 1000px;
+  }
+
+  .opinion-title {
+    font-size: 20px;
+    margin-bottom: 2.8em;
+  }
+
+  .opinion-item {
+    width: 90%;
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .opinion-text {
+    font-size: 10px;
+  }
+
+  .opinion-image {
+    object-fit: fill;
+    top: 1100px;
+    left: 80%;
+    max-width: 50%;
+    max-height: 270px;
+  }
+}
+
+/*Dipositivo: Celular 480px hasta 767px*/
+@media (min-width: 480px) and (max-width: 767px) {
+  /*NAV*/
+  .search-container {
+    display: none;
+  }
+
+  .search-container .material-symbols-outlined {
+    display: none;
+  }
+
+  .cart i {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 10px;
+    justify-content: end;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fbfcfc;
+    padding: 0;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    color: #000;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .cart {
+    position: relative;
+  }
+
+  .hamburger-menu {
+    order: 2;
+  }
+
+  .category-section {
+    min-width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .category-figure {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    border-radius: 20px;
+    gap: 20px;
+  }
+
+  .imgcont2-3 {
+    grid-row: auto;
+    grid-column: span 1;
+  }
+
+  .imgcont2-4 {
+    width: 100%;
+    grid-column: span 1;
+  }
+
+  .imgcont2-5 {
+    grid-column: span 1;
+  }
+
+  .bg-images {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 1px 8px gray;
+  }
+
+  .bg-image2-3 {
+    width: 100%;
+  }
+
+  .bg-image2-4 {
+    width: 100%;
+  }
+
+  .animales {
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .container-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-letter > p {
+    margin-top: 150px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration-color: red;
+    font-size: 1.5em;
+    opacity: 0.9;
+  }
+
+  /*main-content-section*/
+
+  .main-content-section {
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-content,
+  .perro1 {
+    width: 100%;
+  }
+
+  .main-content {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .perro1 {
+    height: auto;
+  }
+
+  /*Seccion de opiniones*/
+  .opinion-container {
+    height: 800px;
+    width: 90%;
+    margin-bottom: 500px;
+  }
+
+  .opinion-title {
+    font-size: 20px;
+    margin-bottom: 2.8em;
+  }
+
+  .opinion-item {
+    width: 70%;
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .opinion-text {
+    font-size: 10px;
+  }
+
+  .opinion-image {
+    top: 1000px;
+    left: 80%;
+    max-width: 40%;
+    max-height: 270px;
+  }
+}
+
+/*Dipositivo: Celular 767px hasta 1164px*/
+@media (min-width: 767px) and (max-width: 1164px) {
+  /*NAV*/
+  .search-container {
+    display: none;
+  }
+  .hamburger-menu {
+  display: none
+  }
+  .search-container .material-symbols-outlined {
+    display: none;
+  }
+
+  .cart i {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-left: 20px;
+    justify-content: end;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fbfcfc;
+    padding: 0;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    color: #000;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .cart {
+    position: relative;
+  }
+
+  .hamburger-menu {
+    order: 2;
+  }
+
+  /*a sección de categorías */
+  .category-section {
+    min-width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .category-figure {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    border-radius: 30px;
+    gap: 30px;
+  }
+
+  imgcont2-3 {
+    grid-row: 2/3;
+    grid-column: span 2;
+  }
+
+  .imgcont2-4 {
+    width: 100%;
+    grid-column: 1 / span 3;
+  }
+
+  .imgcont2-5 {
+    grid-column: 1 / span 3;
+  }
+
+  .bg-images {
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 2px 10px gray;
+  }
+
+  .bg-image2-3 {
+    width: 100%;
+  }
+
+  .bg-image2-4 {
+    width: 100%;
+  }
+
+  .animales {
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+
+  .container-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-letter > p {
+    margin-top: 180px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration-color: red;
+    font-size: 2em;
+    opacity: 0.9;
+  }
+
+  /*main-content-section*/
+
+  .main-content-section {
+    margin-top: 90px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-content,
+  .perro1 {
+    width: 100%;
+  }
+
+  .main-content {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .perro1 {
+    height: auto;
+  }
+
+  /*Seccion de opiniones*/
+  .opinion-container {
+    height: 1000px;
+    width: 90%;
+  }
+
+  .opinion-title {
+    font-size: 25px;
+    margin-bottom: 3em;
+  }
+
+  .opinion-item {
+    width: 45%;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .opinion-text {
+    font-size: 12px;
+  }
+
+  .opinion-image {
+    top: 45%;
+    left: 86%;
+    max-width: 32%;
+    max-height: 350px;
+  }
+}
