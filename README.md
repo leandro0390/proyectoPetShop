@@ -22,7 +22,7 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 -campo Nombre
 -campo Email
 
-![image] (img/validaciones.png)
+https://github.com/leandro0390/proyectoPetShop/blob/main/img/validaciones.png
 
 ## Link de acceso
 
