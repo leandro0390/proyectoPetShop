@@ -8,8 +8,7 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 ## Funcionalidades
 
 - Visualización de productos por categorías (perros, gatos, accesorios, etc.).
-- Carrito de compras para añadir y eliminar productos.
-- Proceso de pago simulado.
+- sección de opiniones de nuestros clientes
 - Diseño responsivo en la pantalla de inicio, para una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 
 ## Tecnologías Utilizadas
