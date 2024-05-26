@@ -22,7 +22,8 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 -campo Nombre
 -campo Email
 
-https://github.com/leandro0390/proyectoPetShop/blob/main/img/validaciones.png
+![imagen](https://github.com/leandro0390/proyectoPetShop/blob/main/img/validaciones.png)
+
 
 ## Link de acceso
 
@@ -34,6 +35,6 @@ https://puppyfriends.netlify.app/
 Este proyecto está bajo del grupo 3 de Codo a Codo 4.0
 
 Contacto
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de mi correo electrónico tu_email@example.com o mediante mi perfil de GitHub.
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo mediante mi perfil de GitHub.
 
-¡Gracias por visitar nuestra tienda online de accesorios y alimentos para mascotas!
+¡Gracias por visitar nuestra proyecto de tienda online de accesorios y alimentos para mascotas!
