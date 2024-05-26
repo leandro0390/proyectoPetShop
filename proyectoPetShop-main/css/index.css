@@ -106,6 +106,7 @@
   height: 100%;
   border-radius: 20px;
 }
+
 /*color fondo imagenes*/
 .bg-image2-1 {
   background: radial-gradient(#d5e1ff, #7d96d5);
@@ -234,4 +235,31 @@
   top: 25%;
   left: 73%;
   max-width: 75%;
+}
+
+.icono-wsp {
+  transition: ease-in .4s;
+  width: 130px;
+  height: 130px;
+  position: fixed;
+  z-index: 10;
+  bottom: 60px;
+  right: 70px;
+  
+}
+
+.icono-wsp:hover {
+  animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
