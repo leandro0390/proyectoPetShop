@@ -15,6 +15,14 @@ footer {
     width: 100%;
 }
 
+.icono-wsp {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+    bottom: -90px;
+    right: 80px;
+}
 
 /*QUINTO RECUADRO*/
 .preFooter {
