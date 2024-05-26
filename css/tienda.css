@@ -1,1 +1,69 @@
+body {
+    position: relative;
+    min-height: 190vh;
+    
+}
 
+.main {
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destacados {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main-destacados {
+    display: flex;
+    gap: 1em;
+}
+
+.destacados-img {
+    height: 310px;
+    width: 350px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: #47AAC3;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 2em;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+}
+
+.cards .products-buy {
+    margin: 5px;
+    padding: 8px;
+}
+
+.cards-img {
+    height: 280px;
+    width: 280px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

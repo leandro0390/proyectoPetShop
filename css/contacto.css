@@ -104,7 +104,7 @@ label {
     font-size: 20px;
 }
 
-input[type="text"],
+.form input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="number"],
