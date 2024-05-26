@@ -18,13 +18,17 @@ Este proyecto es una tienda online de accesorios y alimentos para mascotas, desa
 - CSS3
 - JavaScript
 
+##Aplicamos validaciones con Javascript
+-campo Nombre
+-campo Email
+
 ## Link de acceso
 
 https://puppyfriends.netlify.app/
 
-Capturas de Pantalla
 
-Licencia
+
+## Licencia
 Este proyecto está bajo del grupo 3 de Codo a Codo 4.0
 
 Contacto
