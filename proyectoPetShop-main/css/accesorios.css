@@ -1,0 +1,61 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #717180;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(#d7faff, #e3f8fc);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    padding: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de accesorios */
+.accesorios-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para cada accesorio */
+.accesorio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accesorio-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón "Agregar al carrito" */
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
